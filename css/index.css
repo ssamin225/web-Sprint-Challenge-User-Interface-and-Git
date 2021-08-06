@@ -75,7 +75,7 @@ p {
 .container {
     width: 1000px;
     margin: 0 auto;
-    padding: 0 5%;
+    padding: 0 5.5%;
     background-color: white;
 }
 
@@ -87,7 +87,7 @@ header {
 header nav {
     display: flex;
     justify-content: space-between;
-    padding: 5% 0;
+    padding: 3% 0 5%;
     font-size: 14px;
 }
 
@@ -96,6 +96,11 @@ header nav {
     width: 80%;
     justify-content: space-around;
     align-items: flex-end;
+}
+
+.header-img {
+    display: block;
+    margin: auto;
 }
 
 /*Section styles*/
@@ -111,6 +116,10 @@ header nav {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content.about-section .text-container{
+    width: 98%;
 }
 
 .middle-content {
@@ -192,6 +201,7 @@ header nav {
     padding-right: 0;
 }
 
+/*Footer styles*/
 footer {
     width: 100%;
     background: black;
